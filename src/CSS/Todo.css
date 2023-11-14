@@ -1,0 +1,111 @@
+.main_div{
+    height: 100vh;
+    width: 100vw;
+    background-color:rgb(7, 4, 88);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    overflow: scroll;
+}
+.child_div{
+    margin-top: 5%;
+    width: 30%;
+}
+.child_div img{
+    width: 30%;
+    height: 20%;
+    border-radius: 10px;
+    margin-left: 35%;
+}
+figcaption{
+    text-align: center;
+    color: azure;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.AddItems{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.AddItems input{
+    width: 80%;
+    height: 30px;
+    padding: 20px 10px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+.add_btn{
+    background-color: azure;
+    font-size: 30px;
+    width: 15%;
+    text-align: center;
+    /* padding-top: 8px; */
+    border-radius: 10px;
+    color: rgb(28, 163, 80);
+    transition: 0.2s linear all;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.add_btn:hover{
+    background-color: rgb(28, 163, 80);
+    color: azure;
+    transform: scale(1.1);
+}
+.Item{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+.Item h3{
+    width: 60%;
+    background-color: azure;
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+.delete_btn{
+    background-color: azure;
+    font-size: 30px;
+    width: 15%;
+    text-align: center;
+    /* padding-top: 5px; */
+    border-radius: 10px;
+    color: rgb(157, 19, 19);
+    transition: 0.2s linear all;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.delete_btn:hover{
+    background-color: rgb(157, 19, 19);
+    color: azure;
+    transform: scale(1.1);
+}
+.remove_all{
+    width: 30%;
+}
+.remove_all button{
+    width: 35%;
+    margin: 10px;
+    margin-left: 20%;
+    height: 40px;
+    color: rgb(157, 19, 19);
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+    background-color: azure;
+    transition: 0.2s linear all;
+    border-radius: 10px;
+}
+.remove_all button:hover{
+    background-color: rgb(157, 19, 19);
+    color: azure;
+    transform: scale(1.1);
+    font-weight: bolder;
+}
