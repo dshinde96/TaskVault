@@ -77,9 +77,13 @@ const Todo=()=>{
                                 if(ele!=''){
                                     return (
                                     <div className="Item">
-                                    <h3>{ele}</h3>
-                                    <i class="fa fa-edit add_btn" title="edit Item" onClick={()=>handle_edit(index)}></i>
-                                    <i className="fa fa-trash delete_btn" title="Delete Item"  onClick={()=>{handle_del(index)}}></i>
+                                    <h3>
+                                        {ele}
+                                        <div className="btns">
+                                        <i className="fa fa-trash delete_btn" title="Delete Item"  onClick={()=>{handle_del(index)}}></i>
+                                        <i class="fa fa-edit edit_btn" title="edit Item" onClick={()=>handle_edit(index)}></i>
+                                        </div>
+                                    </h3>
                                     </div>
                                 )
                                 }

@@ -32,7 +32,7 @@ figcaption{
     justify-content: space-between;
 }
 .AddItems input{
-    width: 80%;
+    width: 75%;
     height: 30px;
     padding: 20px 10px;
     border-radius: 5px;
@@ -57,29 +57,58 @@ figcaption{
     color: azure;
     transform: scale(1.1);
 }
+.edit_btn{
+    background-color: azure;
+    font-size: 30px;
+    /* width: 15%; */
+    text-align: center;
+    /* padding-top: 8px; */
+    border-radius: 10px;
+    color: rgb(28, 163, 80);
+    transition: 0.2s linear all;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+
+}
+.edit_btn:hover{
+    background-color: rgb(28, 163, 80);
+    color: azure;
+    transform: scale(1.1);
+}
 .Item{
     display: flex;
     justify-content: space-between;
     margin: 30px 0px;
 }
 .Item h3{
-    width: 60%;
+    width: 100%;
     background-color: azure;
     padding: 10px 5px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.btns{
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: row-reverse;
 }
 .delete_btn{
     background-color: azure;
     font-size: 30px;
-    width: 15%;
     text-align: center;
-    /* padding-top: 5px; */
     border-radius: 10px;
     color: rgb(157, 19, 19);
     transition: 0.2s linear all;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 50px;
+    width: 50px;
+    margin: 0px 10px;
 }
 .delete_btn:hover{
     background-color: rgb(157, 19, 19);
